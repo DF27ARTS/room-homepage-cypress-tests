@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --clr-dark-gray: hsl(0, 0%, 63%);
+  --clr-black: hsl(0, 0%, 0%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-darker-gray: hsl(0, 0%, 27%);
+
+  --section-text-w: min(35rem, 40%);
+  --icon-angle-h: 4.5rem;
+
+}
+
+@media (max-width: 640px) {
+  :root {
+    --img-movile-w: 100%;
+    --icon-angle-h: 3.5rem;
+  }
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
